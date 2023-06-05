@@ -7,7 +7,7 @@ function playSound(newUrl) {
 
 pianoKeys.forEach((pianoKey, i) => {
     
-    const newUrl = '24/key' + (i+1) + '.mp3'
+    const newUrl = './key' + (i+1) + '.mp3'
     pianoKey.addEventListener('click', () => playSound(newUrl))
 })
 
